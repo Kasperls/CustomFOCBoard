@@ -16,3 +16,6 @@ production/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# KiCad DRC/ERC reports (regenerate in KiCad)
+*.rpt
