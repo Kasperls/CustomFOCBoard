@@ -52,4 +52,4 @@ You can also browse the design on [BoardRepo](https://boardrepo.com/kasperls004/
 
 ## Use of AI
 
-I used Claude (Anthropic) as an assistant on this project. It helped with part selection, datasheet cross-checks, design reviews, some schematic and layout edits, and writing this README. I made the design decisions and reviewed the changes myself.
+I have used Claude (Anthropic) to help create this project. It has helped with selecting parts, datasheet cross-checks, design reviews, some schematic and layout edits, and summarizing the project here. I have made the design decisions and reviewed the work. The purpose of the project is to test PCB design with AI support.  
