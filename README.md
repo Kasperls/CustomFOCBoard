@@ -49,3 +49,7 @@ Open `CustomFOCBoard.kicad_pro` in KiCad 9. The custom symbol and footprint for 
 The design is done, but not yet ordered. Next up is a 3D-printed fit check against the motor, then ordering boards and writing firmware with SimpleFOC.
 
 You can also browse the design on [BoardRepo](https://boardrepo.com/kasperls004/customfocboard).
+
+## Use of AI
+
+I used Claude (Anthropic) as an assistant on this project. It helped with part selection, datasheet cross-checks, design reviews, some schematic and layout edits, and writing this README. I made the design decisions and reviewed the changes myself.
