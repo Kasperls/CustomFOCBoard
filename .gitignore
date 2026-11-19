@@ -1,0 +1,18 @@
+# KiCad local/user state
+*.kicad_prl
+*.lck
+fp-info-cache
+\#auto_saved_files#
+_autosave-*
+*-backups/
+*.bak
+*.kicad_sch-bak
+~*
+
+# Generated fabrication output (regenerate with Fabrication Toolkit)
+production/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

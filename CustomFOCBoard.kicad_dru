@@ -1,0 +1,12 @@
+(version 1)
+
+# Keep the current-sense / ADC traces away from the noisy switching nodes
+# (motor phases and the buck converter switch node).
+(rule "Analog away from switching"
+	(condition "A.NetClass == 'Analog' && (B.NetClass == 'Motor' || B.NetName == '/BUCK_SW')")
+	(constraint clearance (min 0.5mm)))
+
+# Keep the buck switch node away from the encoder/MCU signals as well.
+(rule "Buck switch node clearance"
+	(condition "A.NetName == '/BUCK_SW' && B.NetClass == 'Default'")
+	(constraint clearance (min 0.3mm)))
